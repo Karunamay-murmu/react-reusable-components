@@ -3,7 +3,7 @@ import HelloWorld from "ps-react/HelloWorld";
 
 /** Custom Message */
 function ExampleHelloWorld() {
-    return <HelloWorld message="Pluralsight viewers!" />;
+    return <HelloWorld message="folks" />;
 }
 
 export default ExampleHelloWorld;
