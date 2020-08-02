@@ -24,7 +24,7 @@ const Props = ({ props }) => {
                                 {props[key].defaultValue &&
                                     props[key].defaultValue.value}
                             </td>
-                            <td>{props[key].reuqired && "X"}</td>
+                            <td>{props[key].required && "X"}</td>
                         </tr>
                     );
                 })}

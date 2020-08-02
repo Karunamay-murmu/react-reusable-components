@@ -6,6 +6,7 @@ import javascript from "highlight.js/lib/languages/javascript";
 class CodeExample extends React.Component {
     componentDidMount() {
         hljs.initHighlighting();
+        hljs.initHighlightingOnLoad();
         hljs.registerLanguage("javascript", javascript);
         hljs.highlightBlock(this.element);
     }
