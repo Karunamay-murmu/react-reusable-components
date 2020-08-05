@@ -1,8 +1,8 @@
 import React from "react";
 import TextInput from "ps-react/TextInput";
 
-/** Required TextBox */
-export default class ExampleError extends React.Component {
+/** Optional TextBox */
+export default class ExampleOptional extends React.Component {
     render() {
         return (
             <TextInput
@@ -10,8 +10,6 @@ export default class ExampleError extends React.Component {
                 label="First Name"
                 name="firstname"
                 onChange={() => {}}
-                required
-                error="First name is required"
             />
         );
     }

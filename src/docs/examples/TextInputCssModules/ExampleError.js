@@ -1,11 +1,11 @@
 import React from "react";
-import TextInput from "ps-react/TextInput";
+import TextInputCssModules from "ps-react/TextInputCssModules";
 
 /** Required TextBox */
 export default class ExampleError extends React.Component {
     render() {
         return (
-            <TextInput
+            <TextInputCssModules
                 htmlId="example-optional"
                 label="First Name"
                 name="firstname"
